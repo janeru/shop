@@ -1,0 +1,40 @@
+
+
+
+@media only screen and (min-width: 320px) {
+  .card{
+    height: 300px;
+     
+  }
+  .card-img, .card-img-bottom, .card-img-top{
+    height:80px
+  }
+  button.btn.btn-primary{
+    margin:10px;
+    font-size: 12px;
+    margin: 2px;
+  }
+}
+@media only screen and (min-width:425px) {
+  .card{
+    height: 350px;
+    width: 200px;
+  }
+  .card-img, .card-img-bottom, .card-img-top{
+    height:150px
+  }
+  
+}
+
+.row{
+  margin:0px !important;
+}
+
+.col-md-4.col-sm-4.col-6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btnGroup {
+  position: absolute;
+  bottom: 2px;
+}
