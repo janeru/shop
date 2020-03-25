@@ -37,11 +37,11 @@ const ControlledTabs = () => {
                                 <Card className="wholeCard">
                                     <Card.Img variant="top" src={data.image} />
                                     <Card.Body>
-                                        <Card.Text>{data.name}</Card.Text>
+                                        <Card.Title>{data.name}</Card.Title>
 
                                         <Card.Text>
-                                            產品價格
-                          </Card.Text>
+                                            產品價格 ${data.price}
+                                        </Card.Text>
 
                                         <div className="btnGroup">
                                             <Button variant="primary">修改</Button>
